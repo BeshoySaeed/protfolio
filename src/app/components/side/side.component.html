@@ -1,0 +1,24 @@
+<div class="side">
+  <img
+    class="img"
+    src="../../../assets/images/projects/me.jpg"
+    alt="my photo"
+  />
+  <ul class="nav">
+    <li (click)="goToAbout()">
+      <a [class.active]="activeLinkId === 'about'">about</a>
+    </li>
+    <li (click)="goToEducation()">
+      <a [class.active]="activeLinkId === 'education'">Education</a>
+    </li>
+    <li (click)="goToSkills()">
+      <a [class.active]="activeLinkId === 'skills'">Skills</a>
+    </li>
+    <li (click)="goToProjects()">
+      <a [class.active]="activeLinkId === 'projects'">projects</a>
+    </li>
+    <li (click)="goToContact()">
+      <a [class.active]="activeLinkId === 'contact'">Contact me </a>
+    </li>
+  </ul>
+</div>

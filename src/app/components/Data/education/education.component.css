@@ -1,0 +1,44 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.edu-header {
+  font-size: 52px;
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  color: #c15c3f;
+}
+
+.education-box {
+  display: flex;
+  margin: 40px 0 0 0;
+  justify-content: space-between;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 70%;
+}
+
+.info h2 {
+  color: #272a2d;
+  font-family: "Teko", sans-serif;
+  font-weight: 600;
+}
+
+.track {
+  color: #8d929c;
+  font-family: "Teko", sans-serif;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+.date {
+  color: #c16451;
+}

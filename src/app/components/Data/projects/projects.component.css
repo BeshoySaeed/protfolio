@@ -1,0 +1,151 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 20px;
+}
+@media (max-width: 1100px) {
+  .container {
+    flex-direction: column;
+    height: fit-content;
+  }
+}
+.header {
+  font-size: 52px;
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  color: #c15c3f;
+}
+.card img {
+  height: 250px;
+}
+.card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 270px;
+  width: 250px;
+}
+.card:nth-child(1)::before {
+  content: "Demmo";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  color: white;
+  opacity: 0.7;
+  border-radius: 6px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 0%;
+  width: 100%;
+  transition: 0.3s;
+  overflow: hidden;
+}
+.card:nth-child(1):hover::before {
+  height: 100%;
+}
+.card:nth-child(2)::before {
+  content: "Demmo";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  color: white;
+  opacity: 0.7;
+  border-radius: 6px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 0%;
+  width: 100%;
+  transition: 0.3s;
+  overflow: hidden;
+}
+.card:nth-child(2):hover::before {
+  height: 100%;
+}
+.card:nth-child(3)::before {
+  content: "Demmo";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  color: white;
+  opacity: 0.7;
+  border-radius: 6px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 0%;
+  width: 100%;
+  transition: 0.3s;
+  overflow: hidden;
+}
+.card:nth-child(3):hover::before {
+  height: 100%;
+}
+.card:nth-child(4)::before {
+  content: "Demmo";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  color: white;
+  opacity: 0.7;
+  border-radius: 6px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 0%;
+  width: 100%;
+  transition: 0.3s;
+  overflow: hidden;
+}
+.card:nth-child(4):hover::before {
+  height: 100%;
+}
+.card:nth-child(5)::before {
+  content: "Demmo";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  color: white;
+  opacity: 0.7;
+  border-radius: 6px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 0%;
+  width: 100%;
+  transition: 0.3s;
+  overflow: hidden;
+}
+.card:nth-child(5):hover::before {
+  height: 100%;
+}
+.card:nth-child(6)::before {
+  content: "Demmo";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  color: white;
+  opacity: 0.7;
+  border-radius: 6px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 0%;
+  width: 100%;
+  transition: 0.3s;
+  overflow: hidden;
+}
+.card:nth-child(6):hover::before {
+  height: 100%;
+}
